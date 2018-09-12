@@ -1,7 +1,9 @@
-var player;
+var helo;
 // background image
 var img;
-var pipes;
+var objects;
+var gameOver;
+
 
 //timer
 function preload() {
@@ -10,9 +12,14 @@ function preload() {
 }
 function setup() {
     createCanvas(1000, 700);
-    player = createSprite(50, 400, 100, 100, 40); //(x, y, w, h)
-    pipes = new Group();
+    helo = createSprite(50, 400, 100, 100, 40); //(x, y, w, h)
+    helo.velocity.x = 4;
+    helo.setCollider("circle", 0, 0, 20)
+    objects = new Group();
 
+    gameOver = true;
+    updateSprites(false);
+    camera.position.y = height / 2;
 
 }
 
