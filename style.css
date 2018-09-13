@@ -1,0 +1,26 @@
+/* html, body {
+    height: 100%;
+  } */
+  body {
+      background-image: url("https://images.pexels.com/photos/924824/pexels-photo-924824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+  }
+  header {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+
+}
+  .container {
+    margin: 0;
+    display: flex;
+    justify-content: 50%;
+    /* This centers our sketch vertically. */
+    align-items: 50%;
+  }
+ 
+
+  footer {
+      text-align: center;
+      color: white;
+
+  }
