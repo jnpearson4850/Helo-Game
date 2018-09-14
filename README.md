@@ -19,6 +19,7 @@ Here is a static screen shot of the game:
 This game uses p5.js to design and run the game. The blocks fall at a random location so no two attempts are the same, the user has to stay on their toes. 
 
 **List of Technologies used**
+
 HTML5/CSS3/p5.js
 
 **Getting Started**
